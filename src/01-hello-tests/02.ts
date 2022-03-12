@@ -1,14 +1,34 @@
+type CityType = {
+    title: string
+    countryTitle: string
+}
+type AddressType = {
+    streetTitle: string
+    city: CityType
+}
+
+type TechType = {
+    id: number
+    title: string
+}
+
 type StudentType = {
-    id
+    id: number
+    name: string
+    age: number
+    isActive: boolean
+    address: AddressType
+    technologies:Array<TechType>  //т.к. это массив
 }
 
 
 const student: StudentType = {
+    id: 1,
     name: "Alex",
     age: 38,
     isActive: false,
     address: {
-        streetTitle: "Wurganova 2",
+        streetTitle: "Surganova 2",
         city: {
             title: "Minsk",
             countryTitle: "Belarus",
