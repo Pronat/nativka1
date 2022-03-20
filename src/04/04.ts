@@ -11,7 +11,7 @@ const oldAges = [100]; // > 90
 const courses = [
     {title: "CSS", price: 110},
     {title: "JS", price: 200},
-    {title: "React", price: 300},
+    {title: "React", price: 150},
 ]
 
 type CourseType = {
@@ -19,7 +19,13 @@ type CourseType = {
     price: number;
 }
 
+//<160
 const chipPredicate = (course: CourseType) => {
     return course.price < 160;
 }
+
+const chipCourses = [
+    {title: "CSS", price: 110},
+    {title: "React", price: 150},
+]
 
