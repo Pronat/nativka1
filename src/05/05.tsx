@@ -32,7 +32,7 @@ const dimychTransformator = (man: ManType) => {
         },
     ]
 
-const dev2 = [
+const dev2 =  [
     dimychTransformator(people[0]),
     dimychTransformator(people[1]),
     dimychTransformator(people[2])
