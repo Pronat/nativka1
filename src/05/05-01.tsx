@@ -1,4 +1,4 @@
-type ManType = {
+export type ManType = {
     name: string;
     age: number;
 }
@@ -8,6 +8,7 @@ const people: Array<ManType> = [
     {name: "Alexandr Petrov", age: 24},
     {name: "Dmitry Sidorov", age: 18},
 ]
+
 
 const dimychTransformator = (man: ManType) => {
     return {
@@ -38,8 +39,16 @@ const dev2 =  [
     dimychTransformator(people[2])
 ]
 
-const dev4 = people.map(x => ({
+const dev4 = people.map(man => ({
             stack: ["css, html", "js", "tdd", "react"],
-            firstName: x.name.split(" ")[0],
-            lastName: x.name.split(" ")[1],
+            firstName: man.name.split(" ")[0],
+            lastName: man.name.split(" ")[1],
         }))
+
+const message = people.map(man =>
+        `Hello ${man.name.split(" ")[0]}, how are you?`
+)
+
+export const createGreetingMesssage = people.map(man =>
+    `Hello ${man.name.split(" ")[0]}, how are you?`
+)
