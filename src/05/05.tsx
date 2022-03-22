@@ -37,3 +37,9 @@ const dev2 =  [
     dimychTransformator(people[1]),
     dimychTransformator(people[2])
 ]
+
+const dev4 = people.map(x => ({
+            stack: ["css, html", "js", "tdd", "react"],
+            firstName: x.name.split(" ")[0],
+            lastName: x.name.split(" ")[1],
+        }))
