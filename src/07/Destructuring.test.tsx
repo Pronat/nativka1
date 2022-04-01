@@ -1,3 +1,5 @@
+import {ManType} from "./Destructuring";
+
 let props: ManType;
 
 beforeEach(() => {
@@ -12,23 +14,6 @@ beforeEach(() => {
         }
     }
 })
-
-type LessonType = {
-    title: string
-}
-
-type ManType = {
-    name: string,
-    age: number,
-    lessons: Array<LessonType>,
-    address: {
-        street: {
-            title: string
-        }
-    }
-}
-
-
 
 test("", () => {
     // const age = props.age;
