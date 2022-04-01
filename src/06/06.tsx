@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {MouseEventHandler} from 'react';
 
 export const User = () => {
-    const deleteUser = ()=> {
-        alert("delete user")
+    const deleteUser = () => {
+
     }
     const saveUser = ()=> {
         alert("save user")
@@ -11,11 +11,16 @@ export const User = () => {
     const onChangeName = () => {
         console.log('name changed')
     }
+    const focusLostHandler = () => {
+        console.log('focus lost')
+    }
     return(
-        <div><textarea onChange={onChangeName}>Alex</textarea>
+        <div><textarea
+            onChange={onChangeName}
+            onBlur={focusLostHandler}>Alex</textarea>
             <input/>
-            <button tabIndex={3} onClick={deleteUser}>delete</button>
-            <div tabIndex={1} onClick={saveUser}>save</div>
+            <button onClick={deleteUser}>delete</button>
+            <button onClick={saveUser}>save</button>
 
         </div>
     )
