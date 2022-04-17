@@ -26,3 +26,7 @@ test("", () => {
 
     expect(title).toBe("Nezavisimisti Street")
 })
+//
+// const  l1 = props.lessons[0]
+// const  l2 = props.lessons[1]
+// const [l1, l2] = props.lessons
