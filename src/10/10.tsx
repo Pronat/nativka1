@@ -1,4 +1,5 @@
 export type UserType = {
     name: string
     hair: number
-    address: {title: string}
+    address: { title: string }
+}

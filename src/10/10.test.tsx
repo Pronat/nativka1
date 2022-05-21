@@ -1,8 +1,14 @@
 import {UserType} from "./10";
 
-function hairdrasser(u: UserType, power: number) {
-    const copy = {...u}
-    copy.hair = u.hair / power
+function makeHairStyle(u: UserType, power: number) {
+
+    const copy = {
+        ...u,
+        hair: u.hair / power,
+
+        // copy.hair = u.hair / power
+    }
+    return copy
 }
 
 test('reference type test', ()=> {
@@ -14,7 +20,9 @@ test('reference type test', ()=> {
         }
     }
 
-    hairdrasser(user, 2)
+    const awesomeUser = makeHairStyle(user, 2)
 
-    expect(user.hair).toBe(16)
+
+    expect(user.hair).toBe(32)
+    expect(awesomeUser.hair).toBe(16)
 })
