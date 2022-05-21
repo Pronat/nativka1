@@ -25,4 +25,5 @@ test('reference type test', ()=> {
 
     expect(user.hair).toBe(32)
     expect(awesomeUser.hair).toBe(16)
+    expect(awesomeUser.address).toBe(user.address)
 })
