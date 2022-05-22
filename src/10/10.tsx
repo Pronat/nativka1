@@ -17,6 +17,16 @@ export function moveUser(u: UserWithLaptopType, city: string) {
         address: {
             ...u.address,
             city: city
+        },
+        laptop: {...u.laptop}
+    }
+}
+
+export function upgradeUserLaptop(u: UserWithLaptopType, city: string) {
+    return {
+        ...u,
+        laptop: {...u.laptop,
+        title: 'Macbook'
         }
     }
 }
