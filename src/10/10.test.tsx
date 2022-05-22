@@ -64,6 +64,7 @@ test('upgrade laptop to macbook', ()=> {
     expect(user).not.toBe(userCopy)
     expect(user.address).toBe(userCopy.address)
     expect(user.laptop).not.toBe(userCopy.laptop)
-    expect(userCopy.laptop).toBe('Macbook')
+    expect(userCopy.laptop.title).toBe('Macbook')
+    expect(user.laptop.title).toBe('ZenBook')
 
 })
