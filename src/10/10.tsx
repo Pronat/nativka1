@@ -28,6 +28,24 @@ export function moveUser(u: UserWithLaptopType, city: string) {
     }
 }
 
+export function moveUsertToOtherHouse(u: UserWithLaptopType & UserWithBooksType, house: number) {
+    return {
+        ...u,
+        address: {
+            ...u.address,
+            house: house
+        },
+        laptop: {...u.laptop}
+    }
+}
+
+export function addNewBooksToUser(u: UserWithLaptopType & UserWithBooksType, newBooks: Array<string>) {
+    return {
+        ...u,
+        books: [...u.books, newBooks]
+    }
+}
+
 export function upgradeUserLaptop(u: UserWithLaptopType, laptop: string) {
     return {
         ...u,
