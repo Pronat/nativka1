@@ -21,6 +21,7 @@ test('reference type test', ()=> {
     }
 
     const awesomeUser = makeHairStyle(user, 2)
+    user.address.title = 'Kiev'
 
 
     expect(user.hair).toBe(32)
