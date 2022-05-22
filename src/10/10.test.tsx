@@ -34,13 +34,13 @@ test('change address', ()=> {
     }
 
 
-    const movedUser = moveUser(user, 2)
+    const movedUser = moveUser(user, 'Kiev')
     user = movedUser
 
 
     expect(user).not.toBe(movedUser)
     expect(user.address).not.toBe(movedUser.address)
     expect(user.laptop).not.toBe(movedUser.laptop)
-    expect(user.address.title).toBe('Kiev')
+    expect(user.address.city).toBe('Kiev')
 
 })
