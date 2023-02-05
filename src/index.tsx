@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {value} from "./01-hello-tests/01";
+import {value01_01} from "./01-hello-tests/01";
 
-
-const a = value
+console.log(11111)
+const a = value01_01
 
 
 
