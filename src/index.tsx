@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {value01_01} from "./01-hello-tests/01";
+import {split} from "./01-hello-tests/01";
 
-console.log(11111)
-const a = value01_01
+const phrase = "Hello my dear friend"
+const result = split(phrase)
+console.log(result)
 
 
 

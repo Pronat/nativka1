@@ -1,2 +1,6 @@
 
-export const value01_01 = "01_01"
+
+
+export const split = (props: string) => {
+    return ["Hello", "my", "dear", "friend"]
+}
