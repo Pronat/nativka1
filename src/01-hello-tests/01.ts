@@ -8,5 +8,6 @@ export function mult(a: number, b: number) {
 
 
 export const spliter = (sentence: string) => {
-    return sentence.toLowerCase().split(" ")
+    const res =  sentence.toLowerCase().split(" ")
+    return res.filter(el => el !== '' && el !== '-')
 }

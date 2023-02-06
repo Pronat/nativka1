@@ -25,12 +25,21 @@ test('mult should be correct', () => {
 
 test('Split function', () => {
     let sentence = "Hello my dear friend"
+    let sentence2 = "Hello - my favourite  dear friend"
 
     let result = spliter(sentence)
+    let result2 = spliter(sentence2)
 
     expect(result.length).toBe(4)
     expect(result[0]).toBe("hello")
     expect(result[1]).toBe("my")
     expect(result[2]).toBe("dear")
     expect(result[3]).toBe("friend")
+
+    expect(result2.length).toBe(5)
+    expect(result2[0]).toBe("hello")
+    expect(result2[1]).toBe("my")
+    expect(result2[2]).toBe("favourite")
+    expect(result2[3]).toBe("dear")
+    expect(result2[4]).toBe("friend")
 })
