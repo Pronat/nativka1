@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativka1-9">
-      <change afterPath="$PROJECT_DIR$/src/02-oject/02.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02-oject/02.ts" afterDir="false" />
+    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativka2-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02-oject/02.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/02-oject/02.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675702084136</updated>
       <workItem from="1675702085751" duration="112000" />
-      <workItem from="1675702317842" duration="5386000" />
+      <workItem from="1675702317842" duration="6872000" />
     </task>
     <task id="LOCAL-00001" summary="nativka1-6">
       <created>1675702354721</created>
@@ -153,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675706530710</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="nativka2-1">
+      <created>1675709381810</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675709381810</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +169,7 @@
     <MESSAGE value="nativka1-7" />
     <MESSAGE value="nativka1-8" />
     <MESSAGE value="nativka1-9" />
-    <option name="LAST_COMMIT_MESSAGE" value="nativka1-9" />
+    <MESSAGE value="nativka2-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="nativka2-1" />
   </component>
 </project>
