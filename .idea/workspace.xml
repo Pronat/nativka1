@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativka1-6">
+    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativka1-8">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/01-hello-tests/01.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/01-hello-tests/01.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/01-hello-tests/01.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/01-hello-tests/01.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675702084136</updated>
       <workItem from="1675702085751" duration="112000" />
-      <workItem from="1675702317842" duration="2720000" />
+      <workItem from="1675702317842" duration="3556000" />
     </task>
     <task id="LOCAL-00001" summary="nativka1-6">
       <created>1675702354721</created>
@@ -129,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675702354721</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nativka1-7">
+      <created>1675705555243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675705555243</updated>
+    </task>
+    <task id="LOCAL-00003" summary="nativka1-8">
+      <created>1675705951905</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675705951905</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +151,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nativka1-6" />
-    <option name="LAST_COMMIT_MESSAGE" value="nativka1-6" />
+    <MESSAGE value="nativka1-7" />
+    <MESSAGE value="nativka1-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="nativka1-8" />
   </component>
 </project>

@@ -1,9 +1,16 @@
 import {mult, spliter, sum} from "./01";
 
+let a: number
+let b: number
+let c: number
+beforeEach(() => {
+    a = 2
+    b = 4
+    c = 1
+})
+
 test('Result of sum must be true', () => {
-    let a = 2
-    let b = 4
-    let c = 1
+
 
     let result = sum(a, b)
     let result2 = sum(a, c)
@@ -13,9 +20,6 @@ test('Result of sum must be true', () => {
 })
 
 test('mult should be correct', () => {
-    let a = 2
-    let b = 4
-    let c = 1
 
     let result = mult(a, b)
     let result2 = mult(a, c)
