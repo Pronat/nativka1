@@ -1,4 +1,28 @@
-export const student = {
+import * as timers from "timers";
+
+type StudentType ={
+    id: number
+    name: string,
+    age: number,
+    isActive: boolean
+    address: AddressType
+    technologies: TechnologiesType
+}
+type AddressType = {
+    streetTitle: string
+    city: cityType
+}
+type cityType = {
+    title: string
+    countryTitle: string
+}
+type TechnologiesType = Array<TechnologiesPodType>
+type TechnologiesPodType = {
+    id: number
+    title: string
+}
+export const student: StudentType = {
+    id: 1,
     name: "Alex",
     age: 20,
     isActive: true,
@@ -27,3 +51,4 @@ export const student = {
 
 console.log(student.address.streetTitle)
 console.log(student.technologies[2].title)
+console.log(student.technologies[1].id)
