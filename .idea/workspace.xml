@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativkaFilter-1">
+    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativkaFilter-3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/04- filter/04.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/04- filter/04.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/04- filter/04.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/04- filter/04.test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/JS_React/React/Nativka/nativka1/src",
+    "last_opened_file_path": "D:/JS_React/React/Nativka/nativka1/src/04- filter",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,6 +49,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JS_React\React\Nativka\nativka1\src\04- filter" />
       <recent name="D:\JS_React\React\Nativka\nativka1\src" />
       <recent name="D:\JS_React\React\Nativka\nativka1\src\03- function" />
       <recent name="D:\JS_React\React\Nativka\nativka1\src\02-oject" />
@@ -129,7 +129,7 @@
       <workItem from="1675868175992" duration="18000" />
       <workItem from="1675868200746" duration="1000" />
       <workItem from="1675948783811" duration="594000" />
-      <workItem from="1676220963697" duration="943000" />
+      <workItem from="1676220963697" duration="1944000" />
     </task>
     <task id="LOCAL-00001" summary="nativka1-6">
       <created>1675702354721</created>
@@ -187,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676221551035</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="nativkaFilter-2">
+      <created>1676221935828</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676221935828</updated>
+    </task>
+    <task id="LOCAL-00010" summary="nativkaFilter-3">
+      <created>1676222230025</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676222230025</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +216,8 @@
     <MESSAGE value="nativka2-2" />
     <MESSAGE value="nativka2-3" />
     <MESSAGE value="nativkaFilter-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="nativkaFilter-1" />
+    <MESSAGE value="nativkaFilter-2" />
+    <MESSAGE value="nativkaFilter-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="nativkaFilter-3" />
   </component>
 </project>
