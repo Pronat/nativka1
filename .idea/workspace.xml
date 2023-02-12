@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativka2-3">
-      <change afterPath="$PROJECT_DIR$/src/03- function/03.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04- filter/04.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04- filter/04.ts" afterDir="false" />
+    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativkaFilter-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/02-oject/02.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/03- function/03.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/02-oject/02.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/02-oject/02.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/04- filter/04.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/04- filter/04.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +129,7 @@
       <workItem from="1675868175992" duration="18000" />
       <workItem from="1675868200746" duration="1000" />
       <workItem from="1675948783811" duration="594000" />
-      <workItem from="1676220963697" duration="299000" />
+      <workItem from="1676220963697" duration="943000" />
     </task>
     <task id="LOCAL-00001" summary="nativka1-6">
       <created>1675702354721</created>
@@ -183,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675714077009</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="nativkaFilter-1">
+      <created>1676221551035</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676221551035</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +201,7 @@
     <MESSAGE value="nativka2-1" />
     <MESSAGE value="nativka2-2" />
     <MESSAGE value="nativka2-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="nativka2-3" />
+    <MESSAGE value="nativkaFilter-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="nativkaFilter-1" />
   </component>
 </project>

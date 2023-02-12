@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Filter} from "./04- filter/04";
 
 function App() {
   return (
