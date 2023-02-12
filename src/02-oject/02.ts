@@ -2,8 +2,8 @@ import * as timers from "timers";
 
 type StudentType ={
     id: number
-    name: string,
-    age: number,
+    name: string
+    age: number
     isActive: boolean
     address: AddressType
     technologies: TechnologiesType
@@ -27,7 +27,7 @@ export const student: StudentType = {
     age: 20,
     isActive: true,
     address: {
-        streetTitle: "Kosmonavtov 38",
+        streetTitle: "Kosmonavtov str 38",
         city: {
             title: "Minsk",
             countryTitle: "Belarus"
