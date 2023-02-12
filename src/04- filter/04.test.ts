@@ -17,3 +17,17 @@ test('check price less 99', ()=> {
     expect(courses2.length).toBe(1)
     expect(courses2[0].price).toBe(70)
 })
+test('map1', ()=> {
+    const people = [
+        { name: 'Andrew Ivanov', age: 33 },
+        { name: 'Alexander Petrov', age: 24 },
+        { name: 'Dmitry Sidorov', age: 18 },
+    ];
+
+    let people2 = people.map((el) => ({
+            stack: ["Css", "JS", "TS"],
+            firstName: el.name.split(" ")[0],
+            lastname: el.name.split(" ")[1]
+    }))
+
+})

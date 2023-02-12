@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativkaFilter-8">
+    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativkaFilter-10">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/04- filter/04.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/04- filter/04.test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -241,7 +242,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676224541278</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="nativkaFilter-9">
+      <created>1676225004965</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676225004965</updated>
+    </task>
+    <task id="LOCAL-00015" summary="nativkaFilter-10">
+      <created>1676225213808</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676225213808</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +287,8 @@
     <MESSAGE value="nativkaFilter-4" />
     <MESSAGE value="nativkaFilter-7" />
     <MESSAGE value="nativkaFilter-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="nativkaFilter-8" />
+    <MESSAGE value="nativkaFilter-9" />
+    <MESSAGE value="nativkaFilter-10" />
+    <option name="LAST_COMMIT_MESSAGE" value="nativkaFilter-10" />
   </component>
 </project>
