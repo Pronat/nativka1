@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativkaFilter-3">
+    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativkaFilter-6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/04- filter/04.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/04- filter/04.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/04- filter/04.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/04- filter/04.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +23,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="e49b6c7882c09589e20462a27619def140b678ef" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,22 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/JS_React/React/Nativka/nativka1/src/04- filter",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "D:/JS_React/React/Nativka/nativka1/node_modules/react-scripts",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "D:\\JS_React\\React\\Nativka\\nativka1\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JS_React/React/Nativka/nativka1/src/04- filter&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;D:/JS_React/React/Nativka/nativka1/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\JS_React\\React\\Nativka\\nativka1\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JS_React\React\Nativka\nativka1\src\04- filter" />
@@ -129,7 +137,7 @@
       <workItem from="1675868175992" duration="18000" />
       <workItem from="1675868200746" duration="1000" />
       <workItem from="1675948783811" duration="594000" />
-      <workItem from="1676220963697" duration="1944000" />
+      <workItem from="1676220963697" duration="2281000" />
     </task>
     <task id="LOCAL-00001" summary="nativka1-6">
       <created>1675702354721</created>
@@ -201,11 +209,29 @@
       <option name="project" value="LOCAL" />
       <updated>1676222230025</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="nativkaFilter-4">
+      <created>1676223279567</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676223279567</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nativka1-6" />
@@ -218,6 +244,7 @@
     <MESSAGE value="nativkaFilter-1" />
     <MESSAGE value="nativkaFilter-2" />
     <MESSAGE value="nativkaFilter-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="nativkaFilter-3" />
+    <MESSAGE value="nativkaFilter-4" />
+    <option name="LAST_COMMIT_MESSAGE" value="nativkaFilter-4" />
   </component>
 </project>

@@ -1,0 +1,121 @@
+Index: src/04- filter/04.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>export const ages = [18, 24, 100, 5, 1, 53, 76, 78]\r\n\r\n\r\nconst oldAges = ages.filter((el) => el > 99)\r\nconsole.log(oldAges)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/04- filter/04.ts b/src/04- filter/04.ts
+--- a/src/04- filter/04.ts	(revision e49b6c7882c09589e20462a27619def140b678ef)
++++ b/src/04- filter/04.ts	(date 1676223863615)
+@@ -1,5 +1,0 @@
+-export const ages = [18, 24, 100, 5, 1, 53, 76, 78]
+-
+-
+-const oldAges = ages.filter((el) => el > 99)
+-console.log(oldAges)
+Index: src/04- filter/04.test.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>export const ages = [18, 24, 100, 5, 1, 53, 76, 78]\r\nconst oldAges = (age: number) => {\r\n    return ages.filter((el) => el > 99)\r\n\r\n}\r\n\r\nexport type CoursesType =\r\n    { title: string, price: number }\r\n\r\nconst courses = [\r\n    {title: 'CSS', price: 120},\r\n    {title: 'HTML', price: 70},\r\n    {title: 'React', price: 200},\r\n]\r\nconst coursesCheap = (course: CoursesType) => {\r\n    return courses.filter((el) => el.price < 100)\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/04- filter/04.test.ts b/src/04- filter/04.test.ts
+--- a/src/04- filter/04.test.ts	(revision e49b6c7882c09589e20462a27619def140b678ef)
++++ b/src/04- filter/04.test.ts	(date 1676223850519)
+@@ -1,18 +1,2 @@
+-export const ages = [18, 24, 100, 5, 1, 53, 76, 78]
+-const oldAges = (age: number) => {
+-    return ages.filter((el) => el > 99)
+-
+-}
+-
+-export type CoursesType =
+-    { title: string, price: number }
+-
+-const courses = [
+-    {title: 'CSS', price: 120},
+-    {title: 'HTML', price: 70},
+-    {title: 'React', price: 200},
+-]
+-const coursesCheap = (course: CoursesType) => {
+-    return courses.filter((el) => el.price < 100)
+-}
+-
++test('should return old people', ()=>{}
++    
+Index: src/App.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from 'react';\r\nimport './App.css';\r\nimport {Filter} from \"./04- filter/04\";\r\n\r\nfunction App() {\r\n  return (\r\n    <div className=\"App\">\r\n\r\n    </div>\r\n  );\r\n}\r\n\r\nexport default App;\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/App.tsx b/src/App.tsx
+--- a/src/App.tsx	(revision e49b6c7882c09589e20462a27619def140b678ef)
++++ b/src/App.tsx	(date 1676223863634)
+@@ -1,6 +1,5 @@
+ import React from 'react';
+ import './App.css';
+-import {Filter} from "./04- filter/04";
+ 
+ function App() {
+   return (
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7dc619de-fa97-4989-bcb0-8ec9c98d3919\" name=\"Changes\" comment=\"nativkaFilter-4\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/04- filter/04.test.ts\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/04- filter/04.test.ts\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"TypeScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2LNCJx11NbrskXab7Y3S9K123xW\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"last_opened_file_path\": \"D:/JS_React/React/Nativka/nativka1/src/04- filter\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs.jest.jest_package\": \"D:/JS_React/React/Nativka/nativka1/node_modules/react-scripts\",\r\n    \"nodejs_package_manager_path\": \"yarn\",\r\n    \"ts.external.directory.path\": \"D:\\\\JS_React\\\\React\\\\Nativka\\\\nativka1\\\\node_modules\\\\typescript\\\\lib\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\JS_React\\React\\Nativka\\nativka1\\src\\04- filter\" />\r\n      <recent name=\"D:\\JS_React\\React\\Nativka\\nativka1\\src\" />\r\n      <recent name=\"D:\\JS_React\\React\\Nativka\\nativka1\\src\\03- function\" />\r\n      <recent name=\"D:\\JS_React\\React\\Nativka\\nativka1\\src\\02-oject\" />\r\n      <recent name=\"D:\\JS_React\\React\\Nativka\\my-app\\src\\01-hello-tests\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Jest.Split function\">\r\n    <configuration name=\"Result of sum must be true\" type=\"JavaScriptTestRunnerJest\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <node-interpreter value=\"project\" />\r\n      <node-options value=\"\" />\r\n      <jest-package value=\"$PROJECT_DIR$/node_modules/react-scripts\" />\r\n      <working-dir value=\"$PROJECT_DIR$\" />\r\n      <envs />\r\n      <scope-kind value=\"TEST\" />\r\n      <test-file value=\"$PROJECT_DIR$/src/01-hello-tests/01.test.ts\" />\r\n      <test-names>\r\n        <test-name value=\"Result of sum must be true\" />\r\n      </test-names>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Split function\" type=\"JavaScriptTestRunnerJest\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <node-interpreter value=\"project\" />\r\n      <node-options value=\"\" />\r\n      <jest-package value=\"$PROJECT_DIR$/node_modules/react-scripts\" />\r\n      <working-dir value=\"$PROJECT_DIR$\" />\r\n      <envs />\r\n      <scope-kind value=\"TEST\" />\r\n      <test-file value=\"$PROJECT_DIR$/src/01-hello-tests/01.test.ts\" />\r\n      <test-names>\r\n        <test-name value=\"Split function\" />\r\n      </test-names>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"mult should be correct\" type=\"JavaScriptTestRunnerJest\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <node-interpreter value=\"project\" />\r\n      <node-options value=\"\" />\r\n      <jest-package value=\"$PROJECT_DIR$/node_modules/react-scripts\" />\r\n      <working-dir value=\"$PROJECT_DIR$\" />\r\n      <envs />\r\n      <scope-kind value=\"TEST\" />\r\n      <test-file value=\"$PROJECT_DIR$/src/01-hello-tests/01.test.ts\" />\r\n      <test-names>\r\n        <test-name value=\"mult should be correct\" />\r\n      </test-names>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"start\" type=\"js.build_tools.npm\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\r\n      <command value=\"run\" />\r\n      <scripts>\r\n        <script value=\"start\" />\r\n      </scripts>\r\n      <node-interpreter value=\"project\" />\r\n      <envs />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"npm.start\" />\r\n        <item itemvalue=\"Jest.Split function\" />\r\n        <item itemvalue=\"Jest.mult should be correct\" />\r\n        <item itemvalue=\"Jest.Result of sum must be true\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7dc619de-fa97-4989-bcb0-8ec9c98d3919\" name=\"Changes\" comment=\"\" />\r\n      <created>1675702084136</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1675702084136</updated>\r\n      <workItem from=\"1675702085751\" duration=\"112000\" />\r\n      <workItem from=\"1675702317842\" duration=\"8629000\" />\r\n      <workItem from=\"1675784814498\" duration=\"767000\" />\r\n      <workItem from=\"1675868175992\" duration=\"18000\" />\r\n      <workItem from=\"1675868200746\" duration=\"1000\" />\r\n      <workItem from=\"1675948783811\" duration=\"594000\" />\r\n      <workItem from=\"1676220963697\" duration=\"2281000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"nativka1-6\">\r\n      <created>1675702354721</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675702354721</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"nativka1-7\">\r\n      <created>1675705555243</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675705555243</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"nativka1-8\">\r\n      <created>1675705951905</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675705951905</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"nativka1-9\">\r\n      <created>1675706530710</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675706530710</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"nativka2-1\">\r\n      <created>1675709381810</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675709381810</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"nativka2-2\">\r\n      <created>1675710861090</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675710861090</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"nativka2-3\">\r\n      <created>1675714077009</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675714077009</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"nativkaFilter-1\">\r\n      <created>1676221551035</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1676221551035</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"nativkaFilter-2\">\r\n      <created>1676221935828</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1676221935828</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"nativkaFilter-3\">\r\n      <created>1676222230025</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1676222230025</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"nativkaFilter-4\">\r\n      <created>1676223279567</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1676223279567</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"12\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"nativka1-6\" />\r\n    <MESSAGE value=\"nativka1-7\" />\r\n    <MESSAGE value=\"nativka1-8\" />\r\n    <MESSAGE value=\"nativka1-9\" />\r\n    <MESSAGE value=\"nativka2-1\" />\r\n    <MESSAGE value=\"nativka2-2\" />\r\n    <MESSAGE value=\"nativka2-3\" />\r\n    <MESSAGE value=\"nativkaFilter-1\" />\r\n    <MESSAGE value=\"nativkaFilter-2\" />\r\n    <MESSAGE value=\"nativkaFilter-3\" />\r\n    <MESSAGE value=\"nativkaFilter-4\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"nativkaFilter-4\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e49b6c7882c09589e20462a27619def140b678ef)
++++ b/.idea/workspace.xml	(date 1676223863999)
+@@ -4,8 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativkaFilter-4">
++    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativkaFilter-5">
+       <change beforePath="$PROJECT_DIR$/src/04- filter/04.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/04- filter/04.test.ts" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/04- filter/04.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/04- filter/04.ts" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -128,7 +130,7 @@
+       <workItem from="1675868175992" duration="18000" />
+       <workItem from="1675868200746" duration="1000" />
+       <workItem from="1675948783811" duration="594000" />
+-      <workItem from="1676220963697" duration="2281000" />
++      <workItem from="1676220963697" duration="2652000" />
+     </task>
+     <task id="LOCAL-00001" summary="nativka1-6">
+       <created>1675702354721</created>
+@@ -207,7 +209,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1676223279567</updated>
+     </task>
+-    <option name="localTasksCounter" value="12" />
++    <task id="LOCAL-00012" summary="nativkaFilter-5">
++      <created>1676223643604</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1676223643604</updated>
++    </task>
++    <option name="localTasksCounter" value="13" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -225,6 +234,7 @@
+     <MESSAGE value="nativkaFilter-2" />
+     <MESSAGE value="nativkaFilter-3" />
+     <MESSAGE value="nativkaFilter-4" />
+-    <option name="LAST_COMMIT_MESSAGE" value="nativkaFilter-4" />
++    <MESSAGE value="nativkaFilter-5" />
++    <option name="LAST_COMMIT_MESSAGE" value="nativkaFilter-5" />
+   </component>
+ </project>
+\ No newline at end of file
