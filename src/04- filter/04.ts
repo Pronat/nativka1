@@ -1,5 +1,5 @@
 export const ages = [18, 24, 100, 5, 1, 53, 76, 78]
-const oldAges = (age: number) => {
+export const oldAges = (age: number) => {
     return ages.filter((el) => el > 99)
 
 }
