@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativkaFilter-7">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativkaFilter-8">
       <change beforePath="$PROJECT_DIR$/src/04- filter/04.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/04- filter/04.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/04- filter/04.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/04- filter/04.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <recent name="D:\JS_React\React\Nativka\my-app\src\01-hello-tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Split function">
+  <component name="RunManager" selected="Jest.check age mpre 99">
     <configuration name="Result of sum must be true" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -87,6 +85,19 @@
       <test-file value="$PROJECT_DIR$/src/01-hello-tests/01.test.ts" />
       <test-names>
         <test-name value="Split function" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="check age mpre 99" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/04- filter/04.test.ts" />
+      <test-names>
+        <test-name value="check age mpre 99" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -115,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.check age mpre 99" />
         <item itemvalue="npm.start" />
         <item itemvalue="Jest.Split function" />
         <item itemvalue="Jest.mult should be correct" />
@@ -222,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676224192898</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="nativkaFilter-8">
+      <created>1676224541278</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676224541278</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +271,7 @@
     <MESSAGE value="nativkaFilter-3" />
     <MESSAGE value="nativkaFilter-4" />
     <MESSAGE value="nativkaFilter-7" />
-    <option name="LAST_COMMIT_MESSAGE" value="nativkaFilter-7" />
+    <MESSAGE value="nativkaFilter-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="nativkaFilter-8" />
   </component>
 </project>
