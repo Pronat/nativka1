@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativkaFilter-10">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativkaFilter-11">
       <change beforePath="$PROJECT_DIR$/src/04- filter/04.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/04- filter/04.test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,7 @@
       <recent name="D:\JS_React\React\Nativka\my-app\src\01-hello-tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.check price less 99">
+  <component name="RunManager" selected="Jest.map1">
     <configuration name="Split function" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -102,16 +101,16 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="mult should be correct" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="map1" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/01-hello-tests/01.test.ts" />
+      <test-file value="$PROJECT_DIR$/src/04- filter/04.test.ts" />
       <test-names>
-        <test-name value="mult should be correct" />
+        <test-name value="map1" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -127,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.map1" />
         <item itemvalue="Jest.check price less 99" />
         <item itemvalue="Jest.check age mpre 99" />
         <item itemvalue="npm.start" />
         <item itemvalue="Jest.Split function" />
-        <item itemvalue="Jest.mult should be correct" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676225213808</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="nativkaFilter-11">
+      <created>1676229600106</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676229600106</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +295,7 @@
     <MESSAGE value="nativkaFilter-8" />
     <MESSAGE value="nativkaFilter-9" />
     <MESSAGE value="nativkaFilter-10" />
-    <option name="LAST_COMMIT_MESSAGE" value="nativkaFilter-10" />
+    <MESSAGE value="nativkaFilter-11" />
+    <option name="LAST_COMMIT_MESSAGE" value="nativkaFilter-11" />
   </component>
 </project>

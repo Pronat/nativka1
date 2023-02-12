@@ -24,10 +24,12 @@ test('map1', ()=> {
         { name: 'Dmitry Sidorov', age: 18 },
     ];
 
-    let people2 = people.map((el) => ({
+    let people2 = people.map((el) => {
+        return {
             stack: ["Css", "JS", "TS"],
             firstName: el.name.split(" ")[0],
-            lastname: el.name.split(" ")[1]
-    }))
-
+            lastname:  el.name.split(" ")[1],
+        }
+    })
+   expect(people2[0].firstName).toBe("Andrew")
 })
