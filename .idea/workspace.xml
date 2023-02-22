@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativkaFilter-11">
-      <change beforePath="$PROJECT_DIR$/src/04- filter/04.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/04- filter/04.test.ts" afterDir="false" />
+    <list default="true" id="7dc619de-fa97-4989-bcb0-8ec9c98d3919" name="Changes" comment="nativkaFilter-12">
+      <change afterPath="$PROJECT_DIR$/src/05-callback onClick, onChange/callBack.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_02_2023_20_48_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_02_2023_20_48__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,10 +129,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="Jest.map1" />
         <item itemvalue="Jest.check price less 99" />
         <item itemvalue="Jest.check age mpre 99" />
-        <item itemvalue="npm.start" />
         <item itemvalue="Jest.Split function" />
       </list>
     </recent_temporary>
@@ -149,6 +152,11 @@
       <workItem from="1675868200746" duration="1000" />
       <workItem from="1675948783811" duration="594000" />
       <workItem from="1676220963697" duration="2281000" />
+      <workItem from="1676303809385" duration="594000" />
+      <workItem from="1676385075971" duration="597000" />
+      <workItem from="1676398077479" duration="5000" />
+      <workItem from="1676475432281" duration="27000" />
+      <workItem from="1677081708437" duration="1624000" />
     </task>
     <task id="LOCAL-00001" summary="nativka1-6">
       <created>1675702354721</created>
@@ -262,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676229600106</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="nativkaFilter-12">
+      <created>1676230255348</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676230255348</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +311,7 @@
     <MESSAGE value="nativkaFilter-9" />
     <MESSAGE value="nativkaFilter-10" />
     <MESSAGE value="nativkaFilter-11" />
-    <option name="LAST_COMMIT_MESSAGE" value="nativkaFilter-11" />
+    <MESSAGE value="nativkaFilter-12" />
+    <option name="LAST_COMMIT_MESSAGE" value="nativkaFilter-12" />
   </component>
 </project>
